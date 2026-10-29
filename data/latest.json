@@ -1,0 +1,2078 @@
+{
+  "schema": "tvant.client-portal.snapshot.v1",
+  "project": "MURCH PV",
+  "published_at": "2026-10-29T16:52:48+00:00",
+  "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
+  "activities": [
+    {
+      "id": "vdc",
+      "name": "Polarity & Continuity (Vdc)",
+      "complete": 363,
+      "scope": 419,
+      "unit": "LBD"
+    },
+    {
+      "id": "grounding",
+      "name": "Grounding Resistance",
+      "complete": 18,
+      "scope": 23,
+      "unit": "INV"
+    },
+    {
+      "id": "continuity",
+      "name": "Grounding Continuity",
+      "complete": 18,
+      "scope": 23,
+      "unit": "BLOCK"
+    },
+    {
+      "id": "iv",
+      "name": "IV Curve Test — Sampling",
+      "complete": 173,
+      "measured": 173,
+      "measurements": 173,
+      "source": "CSV",
+      "review_status": {
+        "Validated": 156,
+        "Rejected": 0,
+        "Requires Review": 0,
+        "Pending Review": 17
+      },
+      "full_lbd_measured": 1,
+      "full_lbd_scope": 23,
+      "sample_lbd_measured": 106,
+      "sample_lbd_scope": 396,
+      "unmapped": 0,
+      "scope": 752,
+      "unit": "STR samples"
+    },
+    {
+      "id": "vlf",
+      "name": "VLF",
+      "complete": 2.6,
+      "scope": 4,
+      "unit": "circuits",
+      "percent": 65.0,
+      "circuit_progress": {
+        "11A": 100.0,
+        "11B": 60.0,
+        "12A": 0.0,
+        "12B": 100.0
+      },
+      "progress_sources": {}
+    },
+    {
+      "id": "otdr",
+      "name": "OTDR — Fiber Optic Testing",
+      "complete": 2,
+      "scope": 4,
+      "unit": "circuits"
+    },
+    {
+      "id": "precomm",
+      "name": "Inverter Precommissioning Inspection",
+      "complete": 3,
+      "scope": 4,
+      "unit": "circuits"
+    },
+    {
+      "id": "scada",
+      "name": "SCADA Communications",
+      "complete": 17,
+      "scope": 23,
+      "unit": "INV"
+    }
+  ],
+  "breakdown": {
+    "circuit": [
+      {
+        "name": "11A",
+        "scope": 92,
+        "complete": 92
+      },
+      {
+        "name": "11B",
+        "scope": 110,
+        "complete": 110
+      },
+      {
+        "name": "12A",
+        "scope": 110,
+        "complete": 109
+      },
+      {
+        "name": "12B",
+        "scope": 107,
+        "complete": 52
+      }
+    ],
+    "zone": [
+      {
+        "name": "A",
+        "scope": 54,
+        "complete": 54
+      },
+      {
+        "name": "B",
+        "scope": 35,
+        "complete": 35
+      },
+      {
+        "name": "C",
+        "scope": 38,
+        "complete": 38
+      },
+      {
+        "name": "D",
+        "scope": 18,
+        "complete": 0
+      },
+      {
+        "name": "E",
+        "scope": 128,
+        "complete": 127
+      },
+      {
+        "name": "F",
+        "scope": 111,
+        "complete": 75
+      },
+      {
+        "name": "G",
+        "scope": 35,
+        "complete": 34
+      }
+    ],
+    "inv": [
+      {
+        "name": "INV01",
+        "scope": 19,
+        "complete": 19
+      },
+      {
+        "name": "INV02",
+        "scope": 16,
+        "complete": 16
+      },
+      {
+        "name": "INV03",
+        "scope": 19,
+        "complete": 19
+      },
+      {
+        "name": "INV04",
+        "scope": 19,
+        "complete": 19
+      },
+      {
+        "name": "INV05",
+        "scope": 18,
+        "complete": 18
+      },
+      {
+        "name": "INV06",
+        "scope": 20,
+        "complete": 20
+      },
+      {
+        "name": "INV07",
+        "scope": 17,
+        "complete": 17
+      },
+      {
+        "name": "INV08",
+        "scope": 18,
+        "complete": 18
+      },
+      {
+        "name": "INV09",
+        "scope": 18,
+        "complete": 18
+      },
+      {
+        "name": "INV10",
+        "scope": 18,
+        "complete": 0
+      },
+      {
+        "name": "INV11",
+        "scope": 19,
+        "complete": 19
+      },
+      {
+        "name": "INV12",
+        "scope": 19,
+        "complete": 19
+      },
+      {
+        "name": "INV13",
+        "scope": 18,
+        "complete": 18
+      },
+      {
+        "name": "INV14",
+        "scope": 17,
+        "complete": 17
+      },
+      {
+        "name": "INV15",
+        "scope": 18,
+        "complete": 17
+      },
+      {
+        "name": "INV16",
+        "scope": 18,
+        "complete": 0
+      },
+      {
+        "name": "INV17",
+        "scope": 18,
+        "complete": 0
+      },
+      {
+        "name": "INV18",
+        "scope": 19,
+        "complete": 19
+      },
+      {
+        "name": "INV19",
+        "scope": 17,
+        "complete": 17
+      },
+      {
+        "name": "INV20",
+        "scope": 18,
+        "complete": 17
+      },
+      {
+        "name": "INV21",
+        "scope": 19,
+        "complete": 19
+      },
+      {
+        "name": "INV22",
+        "scope": 19,
+        "complete": 19
+      },
+      {
+        "name": "INV23",
+        "scope": 18,
+        "complete": 18
+      }
+    ]
+  },
+  "activity_breakdown": {
+    "circuit": [
+      {
+        "name": "11A",
+        "activities": {
+          "vdc": {
+            "scope": 92,
+            "complete": 92,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 92,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 88
+          },
+          "grounding": {
+            "scope": 5,
+            "complete": 5,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 5,
+            "complete": 5,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "11A": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 5,
+            "complete": 5,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "11B",
+        "activities": {
+          "vdc": {
+            "scope": 110,
+            "complete": 110,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 110,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 25
+          },
+          "grounding": {
+            "scope": 6,
+            "complete": 6,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 6,
+            "complete": 6,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.6,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 60.0,
+            "circuit_progress": {
+              "11B": 60.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 6,
+            "complete": 6,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "12A",
+        "activities": {
+          "vdc": {
+            "scope": 110,
+            "complete": 109,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 110,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 6,
+            "complete": 6,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 6,
+            "complete": 6,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 0.0,
+            "circuit_progress": {
+              "12A": 0.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 6,
+            "complete": 6,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "12B",
+        "activities": {
+          "vdc": {
+            "scope": 107,
+            "complete": 52,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 107,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 6,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 6,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 6,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      }
+    ],
+    "zone": [
+      {
+        "name": "A",
+        "activities": {
+          "vdc": {
+            "scope": 54,
+            "complete": 54,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 54,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 52
+          },
+          "grounding": {
+            "scope": 3,
+            "complete": 3,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 3,
+            "complete": 3,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "11A": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 3,
+            "complete": 3,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "B",
+        "activities": {
+          "vdc": {
+            "scope": 35,
+            "complete": 35,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 35,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 2,
+            "complete": 0,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 2,
+            "complete": 0,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 2,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "C",
+        "activities": {
+          "vdc": {
+            "scope": 38,
+            "complete": 38,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 38,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 36
+          },
+          "grounding": {
+            "scope": 2,
+            "complete": 2,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 2,
+            "complete": 2,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "11A": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 2,
+            "complete": 2,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "D",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "E",
+        "activities": {
+          "vdc": {
+            "scope": 128,
+            "complete": 127,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 128,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 25
+          },
+          "grounding": {
+            "scope": 7,
+            "complete": 7,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 7,
+            "complete": 7,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 2,
+            "complete": 1.6,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 80.0,
+            "circuit_progress": {
+              "11B": 60.0,
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 2,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 2,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 7,
+            "complete": 6,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "F",
+        "activities": {
+          "vdc": {
+            "scope": 111,
+            "complete": 75,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 111,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 6,
+            "complete": 4,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 6,
+            "complete": 4,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 2,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 50.0,
+            "circuit_progress": {
+              "12A": 0.0,
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 2,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 2,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 6,
+            "complete": 4,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "G",
+        "activities": {
+          "vdc": {
+            "scope": 35,
+            "complete": 34,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 35,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 2,
+            "complete": 2,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 2,
+            "complete": 2,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 0.0,
+            "circuit_progress": {
+              "12A": 0.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 2,
+            "complete": 2,
+            "unit": "INV"
+          }
+        }
+      }
+    ],
+    "inv": [
+      {
+        "name": "INV01",
+        "activities": {
+          "vdc": {
+            "scope": 19,
+            "complete": 19,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 19,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 19
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "11A": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV02",
+        "activities": {
+          "vdc": {
+            "scope": 16,
+            "complete": 16,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 16,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 15
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "11A": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV03",
+        "activities": {
+          "vdc": {
+            "scope": 19,
+            "complete": 19,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 19,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 18
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "11A": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV04",
+        "activities": {
+          "vdc": {
+            "scope": 19,
+            "complete": 19,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 19,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.6,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 60.0,
+            "circuit_progress": {
+              "11B": 60.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV05",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 18,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 18
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "11A": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV06",
+        "activities": {
+          "vdc": {
+            "scope": 20,
+            "complete": 20,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 20,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 18
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "11A": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV07",
+        "activities": {
+          "vdc": {
+            "scope": 17,
+            "complete": 17,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 17,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV08",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 18,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV09",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 18,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 18
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.6,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 60.0,
+            "circuit_progress": {
+              "11B": 60.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV10",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV11",
+        "activities": {
+          "vdc": {
+            "scope": 19,
+            "complete": 19,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 19,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 7
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.6,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 60.0,
+            "circuit_progress": {
+              "11B": 60.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV12",
+        "activities": {
+          "vdc": {
+            "scope": 19,
+            "complete": 19,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 19,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.6,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 60.0,
+            "circuit_progress": {
+              "11B": 60.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV13",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 18,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.6,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 60.0,
+            "circuit_progress": {
+              "11B": 60.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV14",
+        "activities": {
+          "vdc": {
+            "scope": 17,
+            "complete": 17,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 17,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.6,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 60.0,
+            "circuit_progress": {
+              "11B": 60.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV15",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 17,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV16",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV17",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 1.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 100.0,
+            "circuit_progress": {
+              "12B": 100.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV18",
+        "activities": {
+          "vdc": {
+            "scope": 19,
+            "complete": 19,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 19,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 0.0,
+            "circuit_progress": {
+              "12A": 0.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV19",
+        "activities": {
+          "vdc": {
+            "scope": 17,
+            "complete": 17,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 17,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 0.0,
+            "circuit_progress": {
+              "12A": 0.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV20",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 17,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 0.0,
+            "circuit_progress": {
+              "12A": 0.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV21",
+        "activities": {
+          "vdc": {
+            "scope": 19,
+            "complete": 19,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 19,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 0.0,
+            "circuit_progress": {
+              "12A": 0.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV22",
+        "activities": {
+          "vdc": {
+            "scope": 19,
+            "complete": 19,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 19,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 0.0,
+            "circuit_progress": {
+              "12A": 0.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      },
+      {
+        "name": "INV23",
+        "activities": {
+          "vdc": {
+            "scope": 18,
+            "complete": 18,
+            "unit": "LBD"
+          },
+          "iv": {
+            "scope": 18,
+            "complete": 0,
+            "unit": "LBD",
+            "measured": 0
+          },
+          "grounding": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          },
+          "continuity": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "BLOCK"
+          },
+          "vlf": {
+            "scope": 1,
+            "complete": 0.0,
+            "unit": "circuits",
+            "shared_circuit_level": true,
+            "percent": 0.0,
+            "circuit_progress": {
+              "12A": 0.0
+            }
+          },
+          "otdr": {
+            "scope": 1,
+            "complete": 0,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "precomm": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "circuits",
+            "shared_circuit_level": true
+          },
+          "scada": {
+            "scope": 1,
+            "complete": 1,
+            "unit": "INV"
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results.",
+  "report_date": "2026-10-29"
+}
