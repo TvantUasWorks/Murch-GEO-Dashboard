@@ -68,7 +68,7 @@
 .left label:has(+ #progressFile){display:none!important}
 #syncProgress,#clearProgress{display:none!important}
 #progressStatus{font-size:11px;color:#9cb7d1}
-</style></head><body><header class="header"><div><div class="logo">TVANT <span>GEO</span> <span style="font-weight:400;color:#cedcec">| MURCH PV</span></div><div class="small">MASTER SITE MAP · V15.10 · SOURCE-PDF TRACKER MAPPING · CORRECTED LAYOUT · TRACKER VALIDATION</div></div><span class="pill">Original dashboards unchanged</span></header><main class="layout"><aside class="left"><h2>Project navigation</h2><div class="stat"><div class="metric"><b>23</b><div>POWER STATIONS</div></div><div class="metric"><b>4</b><div>CIRCUITS</div></div></div><h3>Filters</h3><label class="small">Circuit</label><select id="circuit" class="control"><option value="">All circuits</option><option>11A</option><option>11B</option><option>12A</option><option>12B</option></select><label class="small">Power station</label><select id="station" class="control"><option value="">All power stations</option></select><h3>Commissioning progress</h3>
+</style></head><body><header class="header"><div><div class="logo">TVANT <span>GEO</span> <span style="font-weight:400;color:#cedcec">| MURCH PV</span></div><div class="small">MASTER SITE MAP · V15.11 · SOURCE-PDF TRACKER MAPPING · CORRECTED LAYOUT · TRACKER VALIDATION</div></div><span class="pill">Original dashboards unchanged</span></header><main class="layout"><aside class="left"><h2>Project navigation</h2><div class="stat"><div class="metric"><b>23</b><div>POWER STATIONS</div></div><div class="metric"><b>4</b><div>CIRCUITS</div></div></div><h3>Filters</h3><label class="small">Circuit</label><select id="circuit" class="control"><option value="">All circuits</option><option>11A</option><option>11B</option><option>12A</option><option>12B</option></select><label class="small">Power station</label><select id="station" class="control"><option value="">All power stations</option></select><h3>Commissioning progress</h3>
 <label class="small">Test layer</label><select id="testLayer" class="control"><option value="">Tracker selection (red)</option><option value="polarity">Polarity &amp; Continuity</option><option value="grounding">Grounding</option><option value="iv">IV Curve Test</option><option value="vlf">VLF – Medium Voltage</option><option value="scada">SCADA &amp; Communications</option><option value="otdr">OTDR – Fiber Optic</option><option value="precommissioning">Inverter Precommissioning</option></select>
 <div id="scadaRouteLegend" class="scadaLegend" style="display:none"><b>SCADA → SET</b><span style="color:#00a4fa">● 11A</span><span style="color:#ffdc24">● 11B</span><span style="color:#ad54d3">● 12A</span><span style="color:#fb8a22">● 12B</span><small>Traced from annotated reference, alignment to be verified</small></div>
 <label class="small" style="margin-top:10px">Read-only progress JSON</label><input type="file" id="progressFile" accept=".json,application/json" style="width:100%;font-size:12px;margin:5px 0 8px"/>
@@ -255,16 +255,16 @@ function renderOverview(snapshot){
  for(const def of overviewDefs){
   const a=info?.map?.[def.id];
   const scope=Number(a?.scope), complete=Number(a?.complete);
-  const ivKey=station.value ? ((DATA.assets.find(x=>x.id===station.value)||{}).inverter||'') : (circ.value||'');
-  const geoIv=ivKey&&progressData?.iv ? progressData.iv[ivKey] : undefined;
+  const chosenStation=station.value||selected||'';
+  const chosenAsset=DATA.assets.find(x=>x.id===chosenStation);
+  const ivKey=chosenAsset ? chosenAsset.inverter : (circ.value||'');
+  const geoIv=ivKey&&progressData?.iv ? (progressData.iv[ivKey] ?? progressData.iv[chosenStation]) : undefined;
   const geoIvValid=typeof geoIv==='number'&&Number.isFinite(geoIv)&&geoIv>=0&&geoIv<=100;
   let pct=null;
   if(def.id==='iv' && ivKey){
-    // Filtered 'complete:0' in activity_breakdown.iv means no documentary LBD closure.
-    // It is NOT the IV string-sampling percentage. Use the same verified GEO IV
-    // percentages displayed on the map; otherwise show '—' instead of a false 0%.
-    if(geoIvValid)pct=geoIv;
-    else if(a&&pctValid(a.percent))pct=a.percent;
+    // The old snapshot's activity_breakdown.iv.complete counts documentary LBD closures,
+    // NOT sampling scope. For filtered IV use only the per-circuit or per-INV GEO value.
+    pct=geoIvValid ? geoIv : null;
   } else if(a&&pctValid(a.percent))pct=a.percent;
   else if(a&&Number.isFinite(scope)&&scope>0&&Number.isFinite(complete)&&complete>=0)pct=Math.max(0,Math.min(100,100*complete/scope));
   const tile=document.createElement('div');tile.className='overviewTile';
@@ -275,7 +275,7 @@ function renderOverview(snapshot){
   const fill=document.createElement('div');fill.className='overviewFill';fill.style.width=(pct??0)+'%';fill.style.background=pct===null?'#60758d':progressColor(pct);track.append(fill);
   const foot=document.createElement('div');foot.className='scope';
   if(def.id==='iv' && ivKey){
-    foot.textContent=geoIvValid ? 'IV sampling progress · verified GEO export' : 'Awaiting IV sampling percentage from GEO JSON';
+    foot.textContent=geoIvValid ? 'IV sampling · GEO export ('+ivKey+')' : 'IV sampling value not available in GEO JSON';
   } else if(a&&Number.isFinite(scope)&&Number.isFinite(complete)){
     const measured = Number.isFinite(Number(a.measured)) ? ` · measured ${Number(a.measured).toLocaleString('en-US')}` : '';
     foot.textContent=`${complete.toLocaleString('en-US')} / ${scope.toLocaleString('en-US')} ${a.unit||''}${measured}`;
