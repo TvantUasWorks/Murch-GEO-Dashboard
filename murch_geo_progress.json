@@ -1,9 +1,9 @@
 {
   "schema": "tvant.geo.progress.v1",
   "project": "MURCH PV",
-  "published_at": "2026-10-29T16:52:48+00:00",
+  "published_at": "2026-10-29T18:37:25+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
-  "note": "Documentary progress only; no technical acceptance. IV omitted until approved per-inverter sampling progress is available.",
+  "note": "Documentary progress only; no technical acceptance. IV sampling execution by inverter uses the existing V4 counting rule; sampling compliance is separately reported.",
   "tests": {
     "polarity": {
       "INV01": 100.0,
@@ -63,7 +63,35 @@
       "12A": 100.0,
       "12B": 16.67
     },
-    "iv": {},
+    "iv": {
+      "INV01": 100.0,
+      "INV02": 96.97,
+      "INV03": 78.79,
+      "INV04": 0.0,
+      "INV05": 80.0,
+      "INV06": 93.55,
+      "INV07": 0.0,
+      "INV08": 0.0,
+      "INV09": 51.43,
+      "INV10": 0.0,
+      "INV11": 21.21,
+      "INV12": 0.0,
+      "INV13": 0.0,
+      "INV14": 0.0,
+      "INV15": 0.0,
+      "INV16": 0.0,
+      "INV17": 0.0,
+      "INV18": 0.0,
+      "INV19": 0.0,
+      "INV20": 0.0,
+      "INV21": 0.0,
+      "INV22": 0.0,
+      "INV23": 0.0,
+      "11A": 89.7,
+      "11B": 12.5,
+      "12A": 0.0,
+      "12B": 0.0
+    },
     "vlf": {
       "11A": 100.0,
       "11B": 60.0,
