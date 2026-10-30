@@ -251,8 +251,8 @@ const overviewDefs=[
  {id:'scada',label:'SCADA & Communications'},
  {id:'otdr',label:'OTDR – Fiber Optic'},
  {id:'precomm',label:'Precommissioning'},
- {id:'mcu',label:'MCU Inspection'},
- {id:'ws',label:'Weather Stations'}
+ {id:'scada_mcu',label:'MCU Inspection'},
+ {id:'scada_ws',label:'Weather Stations'}
 ];
 function pctValid(n){return typeof n==='number'&&Number.isFinite(n)&&n>=0&&n<=100;}
 function overviewSnapshot(snapshot){
@@ -315,7 +315,7 @@ function renderOverview(snapshot){
   } else if(a&&Number.isFinite(scope)&&Number.isFinite(complete)){
     const measured = Number.isFinite(Number(a.measured)) ? ` · measured ${Number(a.measured).toLocaleString('en-US')}` : '';
     foot.textContent=`${complete.toLocaleString('en-US')} / ${scope.toLocaleString('en-US')} ${a.unit||''}${measured}`;
-  } else foot.textContent=def.id==='mcu'?'Awaiting verified data · 13 MCU mapped':def.id==='ws'?'Awaiting verified data · 3 WS mapped':'Awaiting verified data';
+  } else foot.textContent=def.id==='scada_mcu'?'Awaiting verified data · 13 MCU mapped':def.id==='scada_ws'?'Awaiting verified data · 3 WS mapped':'Awaiting verified data';
   tile.append(head,track,foot);grid.append(tile);
  }
  const status=document.getElementById('overviewStatus');
