@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-10-30T17:54:34+00:00",
+  "published_at": "2026-10-30T18:50:23+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -91,7 +91,10 @@
       "not_complete": 12,
       "unit": "equipment",
       "percent": 7.69,
-      "registration_complete": false
+      "registration_complete": false,
+      "equipment_progress": {
+        "MCU10": 100.0
+      }
     },
     {
       "id": "scada_ws",
@@ -102,7 +105,10 @@
       "not_complete": 2,
       "unit": "equipment",
       "percent": 33.33,
-      "registration_complete": false
+      "registration_complete": false,
+      "equipment_progress": {
+        "WS03": 100.0
+      }
     }
   ],
   "breakdown": {
@@ -2609,6 +2615,5 @@
       "full_lbd_provisional": true
     }
   },
-  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results.",
-  "report_date": "2026-10-30"
+  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results."
 }

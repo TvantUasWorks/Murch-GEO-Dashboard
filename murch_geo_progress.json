@@ -1,7 +1,7 @@
 {
   "schema": "tvant.geo.progress.v1",
   "project": "MURCH PV",
-  "published_at": "2026-10-30T17:54:34+00:00",
+  "published_at": "2026-10-30T18:50:23+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "note": "Documentary progress only; no technical acceptance. IV sampling execution by inverter uses the existing V4 counting rule; sampling compliance is separately reported.",
   "tests": {
@@ -140,10 +140,12 @@
       "12B": 0.0
     },
     "scada_mcu": {
-      "PROJECT": 7.69
+      "PROJECT": 7.69,
+      "MCU10": 100.0
     },
     "scada_ws": {
-      "PROJECT": 33.33
+      "PROJECT": 33.33,
+      "WS03": 100.0
     }
   }
 }
