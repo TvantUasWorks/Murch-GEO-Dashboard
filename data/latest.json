@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-10-30T18:50:23+00:00",
+  "published_at": "2026-10-31T14:14:26+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -86,14 +86,17 @@
       "id": "scada_mcu",
       "name": "SCADA — MCU Communications",
       "scope": 13,
-      "complete": 1,
-      "registered": 1,
-      "not_complete": 12,
+      "complete": 3,
+      "registered": 4,
+      "not_complete": 10,
       "unit": "equipment",
-      "percent": 7.69,
+      "percent": 23.08,
       "registration_complete": false,
       "equipment_progress": {
-        "MCU10": 100.0
+        "MCU10": 100.0,
+        "MCU03": 100.0,
+        "MCU07": 0.0,
+        "MCU13": 100.0
       }
     },
     {
@@ -410,8 +413,8 @@
             "unit": "INV"
           },
           "scada_mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 3,
+            "complete": 2,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -1513,8 +1516,8 @@
             "unit": "INV"
           },
           "scada_mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -1711,8 +1714,8 @@
             "unit": "INV"
           },
           "scada_mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -1843,7 +1846,7 @@
             "unit": "INV"
           },
           "scada_mcu": {
-            "scope": 0,
+            "scope": 1,
             "complete": 0,
             "unit": "registered equipment",
             "scope_is_registered_only": true
