@@ -1,13 +1,13 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-02T20:03:27+00:00",
+  "published_at": "2026-11-03T07:50:52+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
       "id": "vdc",
       "name": "Polarity & Continuity (Vdc)",
-      "complete": 381,
+      "complete": 399,
       "scope": 419,
       "unit": "LBD"
     },
@@ -141,7 +141,7 @@
       {
         "name": "12B",
         "scope": 107,
-        "complete": 70
+        "complete": 88
       }
     ],
     "zone": [
@@ -173,7 +173,7 @@
       {
         "name": "F",
         "scope": 111,
-        "complete": 93
+        "complete": 111
       },
       {
         "name": "G",
@@ -260,7 +260,7 @@
       {
         "name": "INV16",
         "scope": 18,
-        "complete": 0
+        "complete": 18
       },
       {
         "name": "INV17",
@@ -504,7 +504,7 @@
         "activities": {
           "vdc": {
             "scope": 107,
-            "complete": 70,
+            "complete": 88,
             "unit": "LBD"
           },
           "iv": {
@@ -838,7 +838,7 @@
         "activities": {
           "vdc": {
             "scope": 111,
-            "complete": 93,
+            "complete": 111,
             "unit": "LBD"
           },
           "iv": {
@@ -1937,7 +1937,7 @@
         "activities": {
           "vdc": {
             "scope": 18,
-            "complete": 0,
+            "complete": 18,
             "unit": "LBD"
           },
           "iv": {
