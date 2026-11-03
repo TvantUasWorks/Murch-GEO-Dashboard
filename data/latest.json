@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-03T18:29:53+00:00",
+  "published_at": "2026-11-03T19:04:37+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -64,11 +64,11 @@
     {
       "id": "scada_cb",
       "name": "SCADA Control Boxes",
-      "complete": 1.0,
+      "complete": 2.0,
       "scope": 4,
       "unit": "circuits (link-verified equivalent)",
-      "not_reported_circuits": 3,
-      "fully_ok_circuits": 1,
+      "not_reported_circuits": 2,
+      "fully_ok_circuits": 2,
       "circuit_progress": {
         "11A": {
           "scope": 6,
@@ -81,7 +81,17 @@
           "inspection_date": "",
           "version": 1
         },
-        "11B": null,
+        "11B": {
+          "scope": 11,
+          "ok": 11,
+          "nok": 0,
+          "nt": 0,
+          "complete": 11,
+          "percent": 100.0,
+          "inspector": "Gabriel Jimenez",
+          "inspection_date": "2026-10-27",
+          "version": 2
+        },
         "12A": null,
         "12B": null
       },
@@ -503,12 +513,22 @@
           },
           "scada_cb": {
             "scope": 1,
-            "complete": null,
+            "complete": 1.0,
             "unit": "circuits (link-verified equivalent)",
             "shared_circuit_level": true,
-            "not_reported_circuits": 1,
+            "not_reported_circuits": 0,
             "circuit_progress": {
-              "11B": null
+              "11B": {
+                "scope": 11,
+                "ok": 11,
+                "nok": 0,
+                "nt": 0,
+                "complete": 11,
+                "percent": 100.0,
+                "inspector": "Gabriel Jimenez",
+                "inspection_date": "2026-10-27",
+                "version": 2
+              }
             }
           },
           "scada_mcu": {
@@ -1005,12 +1025,22 @@
           },
           "scada_cb": {
             "scope": 2,
-            "complete": null,
+            "complete": 1.0,
             "unit": "circuits (link-verified equivalent)",
             "shared_circuit_level": true,
-            "not_reported_circuits": 2,
+            "not_reported_circuits": 1,
             "circuit_progress": {
-              "11B": null,
+              "11B": {
+                "scope": 11,
+                "ok": 11,
+                "nok": 0,
+                "nt": 0,
+                "complete": 11,
+                "percent": 100.0,
+                "inspector": "Gabriel Jimenez",
+                "inspection_date": "2026-10-27",
+                "version": 2
+              },
               "12B": null
             }
           }
@@ -1494,12 +1524,22 @@
           },
           "scada_cb": {
             "scope": 1,
-            "complete": null,
+            "complete": 1.0,
             "unit": "circuits (link-verified equivalent)",
             "shared_circuit_level": true,
-            "not_reported_circuits": 1,
+            "not_reported_circuits": 0,
             "circuit_progress": {
-              "11B": null
+              "11B": {
+                "scope": 11,
+                "ok": 11,
+                "nok": 0,
+                "nt": 0,
+                "complete": 11,
+                "percent": 100.0,
+                "inspector": "Gabriel Jimenez",
+                "inspection_date": "2026-10-27",
+                "version": 2
+              }
             }
           },
           "scada_mcu": {
@@ -1954,12 +1994,22 @@
           },
           "scada_cb": {
             "scope": 1,
-            "complete": null,
+            "complete": 1.0,
             "unit": "circuits (link-verified equivalent)",
             "shared_circuit_level": true,
-            "not_reported_circuits": 1,
+            "not_reported_circuits": 0,
             "circuit_progress": {
-              "11B": null
+              "11B": {
+                "scope": 11,
+                "ok": 11,
+                "nok": 0,
+                "nt": 0,
+                "complete": 11,
+                "percent": 100.0,
+                "inspector": "Gabriel Jimenez",
+                "inspection_date": "2026-10-27",
+                "version": 2
+              }
             }
           },
           "scada_mcu": {
@@ -2130,12 +2180,22 @@
           },
           "scada_cb": {
             "scope": 1,
-            "complete": null,
+            "complete": 1.0,
             "unit": "circuits (link-verified equivalent)",
             "shared_circuit_level": true,
-            "not_reported_circuits": 1,
+            "not_reported_circuits": 0,
             "circuit_progress": {
-              "11B": null
+              "11B": {
+                "scope": 11,
+                "ok": 11,
+                "nok": 0,
+                "nt": 0,
+                "complete": 11,
+                "percent": 100.0,
+                "inspector": "Gabriel Jimenez",
+                "inspection_date": "2026-10-27",
+                "version": 2
+              }
             }
           },
           "scada_mcu": {
@@ -2218,12 +2278,22 @@
           },
           "scada_cb": {
             "scope": 1,
-            "complete": null,
+            "complete": 1.0,
             "unit": "circuits (link-verified equivalent)",
             "shared_circuit_level": true,
-            "not_reported_circuits": 1,
+            "not_reported_circuits": 0,
             "circuit_progress": {
-              "11B": null
+              "11B": {
+                "scope": 11,
+                "ok": 11,
+                "nok": 0,
+                "nt": 0,
+                "complete": 11,
+                "percent": 100.0,
+                "inspector": "Gabriel Jimenez",
+                "inspection_date": "2026-10-27",
+                "version": 2
+              }
             }
           },
           "scada_mcu": {
@@ -2306,12 +2376,22 @@
           },
           "scada_cb": {
             "scope": 1,
-            "complete": null,
+            "complete": 1.0,
             "unit": "circuits (link-verified equivalent)",
             "shared_circuit_level": true,
-            "not_reported_circuits": 1,
+            "not_reported_circuits": 0,
             "circuit_progress": {
-              "11B": null
+              "11B": {
+                "scope": 11,
+                "ok": 11,
+                "nok": 0,
+                "nt": 0,
+                "complete": 11,
+                "percent": 100.0,
+                "inspector": "Gabriel Jimenez",
+                "inspection_date": "2026-10-27",
+                "version": 2
+              }
             }
           },
           "scada_mcu": {
@@ -2394,12 +2474,22 @@
           },
           "scada_cb": {
             "scope": 1,
-            "complete": null,
+            "complete": 1.0,
             "unit": "circuits (link-verified equivalent)",
             "shared_circuit_level": true,
-            "not_reported_circuits": 1,
+            "not_reported_circuits": 0,
             "circuit_progress": {
-              "11B": null
+              "11B": {
+                "scope": 11,
+                "ok": 11,
+                "nok": 0,
+                "nt": 0,
+                "complete": 11,
+                "percent": 100.0,
+                "inspector": "Gabriel Jimenez",
+                "inspection_date": "2026-10-27",
+                "version": 2
+              }
             }
           },
           "scada_mcu": {
@@ -3385,6 +3475,5 @@
       "full_lbd_provisional": true
     }
   },
-  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results.",
-  "report_date": "2026-11-03"
+  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results."
 }
