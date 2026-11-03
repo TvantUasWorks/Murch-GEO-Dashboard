@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-03T07:50:52+00:00",
+  "published_at": "2026-11-03T10:07:38+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -62,6 +62,22 @@
       "progress_sources": {}
     },
     {
+      "id": "scada_cb",
+      "name": "SCADA Control Boxes",
+      "complete": null,
+      "scope": 4,
+      "unit": "circuits (link-verified equivalent)",
+      "not_reported_circuits": 4,
+      "fully_ok_circuits": 0,
+      "circuit_progress": {
+        "11A": null,
+        "11B": null,
+        "12A": null,
+        "12B": null
+      },
+      "counting_note": "OK links / registered links per circuit. Partial circuits contribute fractionally; not contractual certification."
+    },
+    {
       "id": "otdr",
       "name": "OTDR — Fiber Optic Testing",
       "complete": 3,
@@ -91,18 +107,7 @@
       "not_complete": 4,
       "unit": "equipment",
       "percent": 69.23,
-      "registration_complete": false,
-      "equipment_progress": {
-        "MCU10": 100.0,
-        "MCU01": 100.0,
-        "MCU02": 100.0,
-        "MCU03": 100.0,
-        "MCU04": 100.0,
-        "MCU07": 100.0,
-        "MCU11": 100.0,
-        "MCU12": 100.0,
-        "MCU13": 100.0
-      }
+      "registration_complete": false
     },
     {
       "id": "scada_ws",
@@ -113,12 +118,7 @@
       "not_complete": 0,
       "unit": "equipment",
       "percent": 100.0,
-      "registration_complete": true,
-      "equipment_progress": {
-        "WS01": 100.0,
-        "WS02": 100.0,
-        "WS03": 100.0
-      }
+      "registration_complete": true
     }
   ],
   "breakdown": {
@@ -353,6 +353,16 @@
             "complete": 5,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11A": null
+            }
+          },
           "scada_mcu": {
             "scope": 3,
             "complete": 3,
@@ -418,6 +428,16 @@
             "scope": 6,
             "complete": 6,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11B": null
+            }
           },
           "scada_mcu": {
             "scope": 3,
@@ -485,6 +505,16 @@
             "complete": 6,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12A": null
+            }
+          },
           "scada_mcu": {
             "scope": 3,
             "complete": 3,
@@ -550,6 +580,16 @@
             "scope": 6,
             "complete": 0,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
           },
           "scada_mcu": {
             "scope": 0,
@@ -617,6 +657,16 @@
             "scope": 3,
             "complete": 3,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11A": null
+            }
           }
         }
       },
@@ -670,6 +720,16 @@
             "scope": 2,
             "complete": 0,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
           }
         }
       },
@@ -723,6 +783,16 @@
             "scope": 2,
             "complete": 2,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11A": null
+            }
           }
         }
       },
@@ -776,6 +846,16 @@
             "scope": 1,
             "complete": 0,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
           }
         }
       },
@@ -830,6 +910,17 @@
             "scope": 7,
             "complete": 6,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 2,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 2,
+            "circuit_progress": {
+              "11B": null,
+              "12B": null
+            }
           }
         }
       },
@@ -884,6 +975,17 @@
             "scope": 6,
             "complete": 4,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 2,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 2,
+            "circuit_progress": {
+              "12A": null,
+              "12B": null
+            }
           }
         }
       },
@@ -937,6 +1039,16 @@
             "scope": 2,
             "complete": 2,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12A": null
+            }
           }
         }
       }
@@ -993,6 +1105,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11A": null
+            }
           },
           "scada_mcu": {
             "scope": 1,
@@ -1060,6 +1182,16 @@
             "complete": 1,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11A": null
+            }
+          },
           "scada_mcu": {
             "scope": 0,
             "complete": 0,
@@ -1125,6 +1257,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11A": null
+            }
           },
           "scada_mcu": {
             "scope": 1,
@@ -1192,6 +1334,16 @@
             "complete": 1,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11B": null
+            }
+          },
           "scada_mcu": {
             "scope": 0,
             "complete": 0,
@@ -1257,6 +1409,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11A": null
+            }
           },
           "scada_mcu": {
             "scope": 1,
@@ -1324,6 +1486,16 @@
             "complete": 1,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11A": null
+            }
+          },
           "scada_mcu": {
             "scope": 0,
             "complete": 0,
@@ -1389,6 +1561,16 @@
             "scope": 1,
             "complete": 0,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
           },
           "scada_mcu": {
             "scope": 0,
@@ -1456,6 +1638,16 @@
             "complete": 0,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
+          },
           "scada_mcu": {
             "scope": 0,
             "complete": 0,
@@ -1521,6 +1713,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11B": null
+            }
           },
           "scada_mcu": {
             "scope": 1,
@@ -1588,6 +1790,16 @@
             "complete": 0,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
+          },
           "scada_mcu": {
             "scope": 0,
             "complete": 0,
@@ -1653,6 +1865,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11B": null
+            }
           },
           "scada_mcu": {
             "scope": 0,
@@ -1720,6 +1942,16 @@
             "complete": 1,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11B": null
+            }
+          },
           "scada_mcu": {
             "scope": 1,
             "complete": 1,
@@ -1785,6 +2017,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11B": null
+            }
           },
           "scada_mcu": {
             "scope": 0,
@@ -1852,6 +2094,16 @@
             "complete": 1,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "11B": null
+            }
+          },
           "scada_mcu": {
             "scope": 1,
             "complete": 1,
@@ -1917,6 +2169,16 @@
             "scope": 1,
             "complete": 0,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
           },
           "scada_mcu": {
             "scope": 0,
@@ -1984,6 +2246,16 @@
             "complete": 0,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
+          },
           "scada_mcu": {
             "scope": 0,
             "complete": 0,
@@ -2049,6 +2321,16 @@
             "scope": 1,
             "complete": 0,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12B": null
+            }
           },
           "scada_mcu": {
             "scope": 0,
@@ -2116,6 +2398,16 @@
             "complete": 1,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12A": null
+            }
+          },
           "scada_mcu": {
             "scope": 0,
             "complete": 0,
@@ -2181,6 +2473,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12A": null
+            }
           },
           "scada_mcu": {
             "scope": 0,
@@ -2248,6 +2550,16 @@
             "complete": 1,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12A": null
+            }
+          },
           "scada_mcu": {
             "scope": 1,
             "complete": 1,
@@ -2313,6 +2625,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12A": null
+            }
           },
           "scada_mcu": {
             "scope": 0,
@@ -2380,6 +2702,16 @@
             "complete": 1,
             "unit": "INV"
           },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12A": null
+            }
+          },
           "scada_mcu": {
             "scope": 0,
             "complete": 0,
@@ -2445,6 +2777,16 @@
             "scope": 1,
             "complete": 1,
             "unit": "INV"
+          },
+          "scada_cb": {
+            "scope": 1,
+            "complete": null,
+            "unit": "circuits (link-verified equivalent)",
+            "shared_circuit_level": true,
+            "not_reported_circuits": 1,
+            "circuit_progress": {
+              "12A": null
+            }
           },
           "scada_mcu": {
             "scope": 1,
