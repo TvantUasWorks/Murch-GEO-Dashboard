@@ -1,13 +1,13 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-03T21:57:28+00:00",
+  "published_at": "2026-11-03T22:37:41+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
       "id": "vdc",
       "name": "Polarity & Continuity (Vdc)",
-      "complete": 399,
+      "complete": 400,
       "scope": 419,
       "unit": "LBD"
     },
@@ -233,7 +233,7 @@
       {
         "name": "12B",
         "scope": 107,
-        "complete": 88
+        "complete": 89
       }
     ],
     "zone": [
@@ -260,7 +260,7 @@
       {
         "name": "E",
         "scope": 128,
-        "complete": 127
+        "complete": 128
       },
       {
         "name": "F",
@@ -347,7 +347,7 @@
       {
         "name": "INV15",
         "scope": 18,
-        "complete": 17
+        "complete": 18
       },
       {
         "name": "INV16",
@@ -656,7 +656,7 @@
         "activities": {
           "vdc": {
             "scope": 107,
-            "complete": 88,
+            "complete": 89,
             "unit": "LBD"
           },
           "iv": {
@@ -1036,7 +1036,7 @@
         "activities": {
           "vdc": {
             "scope": 128,
-            "complete": 127,
+            "complete": 128,
             "unit": "LBD"
           },
           "iv": {
@@ -2653,7 +2653,7 @@
         "activities": {
           "vdc": {
             "scope": 18,
-            "complete": 17,
+            "complete": 18,
             "unit": "LBD"
           },
           "iv": {
@@ -3718,6 +3718,5 @@
       "sampling_rule": "ONE_STRING_PER_LBD"
     }
   },
-  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results.",
-  "report_date": "2026-11-03"
+  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results."
 }
