@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-03T10:34:56+00:00",
+  "published_at": "2026-11-03T17:59:04+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -49,13 +49,13 @@
     {
       "id": "vlf",
       "name": "VLF",
-      "complete": 3.6,
+      "complete": 4.0,
       "scope": 4,
       "unit": "circuits",
-      "percent": 90.0,
+      "percent": 100.0,
       "circuit_progress": {
         "11A": 100.0,
-        "11B": 60.0,
+        "11B": 100.0,
         "12A": 100.0,
         "12B": 100.0
       },
@@ -404,12 +404,12 @@
           },
           "vlf": {
             "scope": 1,
-            "complete": 0.6,
+            "complete": 1.0,
             "unit": "circuits",
             "shared_circuit_level": true,
-            "percent": 60.0,
+            "percent": 100.0,
             "circuit_progress": {
-              "11B": 60.0
+              "11B": 100.0
             }
           },
           "otdr": {
@@ -885,12 +885,12 @@
           },
           "vlf": {
             "scope": 2,
-            "complete": 1.6,
+            "complete": 2.0,
             "unit": "circuits",
             "shared_circuit_level": true,
-            "percent": 80.0,
+            "percent": 100.0,
             "circuit_progress": {
-              "11B": 60.0,
+              "11B": 100.0,
               "12B": 100.0
             }
           },
@@ -1309,12 +1309,12 @@
           },
           "vlf": {
             "scope": 1,
-            "complete": 0.6,
+            "complete": 1.0,
             "unit": "circuits",
             "shared_circuit_level": true,
-            "percent": 60.0,
+            "percent": 100.0,
             "circuit_progress": {
-              "11B": 60.0
+              "11B": 100.0
             }
           },
           "otdr": {
@@ -1689,12 +1689,12 @@
           },
           "vlf": {
             "scope": 1,
-            "complete": 0.6,
+            "complete": 1.0,
             "unit": "circuits",
             "shared_circuit_level": true,
-            "percent": 60.0,
+            "percent": 100.0,
             "circuit_progress": {
-              "11B": 60.0
+              "11B": 100.0
             }
           },
           "otdr": {
@@ -1841,12 +1841,12 @@
           },
           "vlf": {
             "scope": 1,
-            "complete": 0.6,
+            "complete": 1.0,
             "unit": "circuits",
             "shared_circuit_level": true,
-            "percent": 60.0,
+            "percent": 100.0,
             "circuit_progress": {
-              "11B": 60.0
+              "11B": 100.0
             }
           },
           "otdr": {
@@ -1917,12 +1917,12 @@
           },
           "vlf": {
             "scope": 1,
-            "complete": 0.6,
+            "complete": 1.0,
             "unit": "circuits",
             "shared_circuit_level": true,
-            "percent": 60.0,
+            "percent": 100.0,
             "circuit_progress": {
-              "11B": 60.0
+              "11B": 100.0
             }
           },
           "otdr": {
@@ -1993,12 +1993,12 @@
           },
           "vlf": {
             "scope": 1,
-            "complete": 0.6,
+            "complete": 1.0,
             "unit": "circuits",
             "shared_circuit_level": true,
-            "percent": 60.0,
+            "percent": 100.0,
             "circuit_progress": {
-              "11B": 60.0
+              "11B": 100.0
             }
           },
           "otdr": {
@@ -2069,12 +2069,12 @@
           },
           "vlf": {
             "scope": 1,
-            "complete": 0.6,
+            "complete": 1.0,
             "unit": "circuits",
             "shared_circuit_level": true,
-            "percent": 60.0,
+            "percent": 100.0,
             "circuit_progress": {
-              "11B": 60.0
+              "11B": 100.0
             }
           },
           "otdr": {
