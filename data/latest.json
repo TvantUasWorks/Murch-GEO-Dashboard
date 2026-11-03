@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-03T21:54:07+00:00",
+  "published_at": "2026-11-03T21:57:28+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -3718,5 +3718,6 @@
       "sampling_rule": "ONE_STRING_PER_LBD"
     }
   },
-  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results."
+  "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results.",
+  "report_date": "2026-11-03"
 }
