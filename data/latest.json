@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-03T23:02:43+00:00",
+  "published_at": "2026-11-04T21:20:28+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -134,7 +134,7 @@
     {
       "id": "scada",
       "name": "SCADA — Fiber Loop Inverters",
-      "complete": 17,
+      "complete": 23,
       "scope": 23,
       "unit": "INV"
     },
@@ -700,7 +700,7 @@
           },
           "scada": {
             "scope": 6,
-            "complete": 0,
+            "complete": 6,
             "unit": "INV"
           },
           "scada_cb": {
@@ -860,7 +860,7 @@
           },
           "scada": {
             "scope": 2,
-            "complete": 0,
+            "complete": 2,
             "unit": "INV"
           },
           "scada_cb": {
@@ -1006,7 +1006,7 @@
           },
           "scada": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "scada_cb": {
@@ -1080,7 +1080,7 @@
           },
           "scada": {
             "scope": 7,
-            "complete": 6,
+            "complete": 7,
             "unit": "INV"
           },
           "scada_cb": {
@@ -1165,7 +1165,7 @@
           },
           "scada": {
             "scope": 6,
-            "complete": 4,
+            "complete": 6,
             "unit": "INV"
           },
           "scada_cb": {
@@ -1913,7 +1913,7 @@
           },
           "scada": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "scada_cb": {
@@ -2011,7 +2011,7 @@
           },
           "scada": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "scada_cb": {
@@ -2207,7 +2207,7 @@
           },
           "scada": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "scada_cb": {
@@ -2697,7 +2697,7 @@
           },
           "scada": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "scada_cb": {
@@ -2795,7 +2795,7 @@
           },
           "scada": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "scada_cb": {
@@ -2893,7 +2893,7 @@
           },
           "scada": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "scada_cb": {
