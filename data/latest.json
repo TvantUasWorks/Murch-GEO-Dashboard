@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-04T21:26:35+00:00",
+  "published_at": "2026-11-10T21:12:18+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -127,9 +127,11 @@
     {
       "id": "precomm",
       "name": "Inverter Precommissioning Inspection",
-      "complete": 3,
-      "scope": 4,
-      "unit": "circuits"
+      "complete": 20,
+      "scope": 23,
+      "unit": "INV",
+      "percent": 86.96,
+      "counting_basis": "Inverter-level documentary validation; not technical acceptance"
     },
     {
       "id": "scada",
@@ -142,11 +144,11 @@
       "id": "scada_mcu",
       "name": "SCADA — MCU Communications",
       "scope": 13,
-      "complete": 9,
-      "registered": 9,
-      "not_complete": 4,
+      "complete": 10,
+      "registered": 10,
+      "not_complete": 3,
       "unit": "equipment",
-      "percent": 69.23,
+      "percent": 76.92,
       "registration_complete": false,
       "equipment_progress": {
         "MCU01": 100.0,
@@ -154,6 +156,7 @@
         "MCU03": 100.0,
         "MCU04": 100.0,
         "MCU07": 100.0,
+        "MCU09": 100.0,
         "MCU11": 100.0,
         "MCU12": 100.0,
         "MCU13": 100.0
@@ -179,11 +182,11 @@
       "id": "mcu",
       "name": "MCU Inspection",
       "scope": 13,
-      "complete": 9,
-      "registered": 9,
-      "not_complete": 4,
+      "complete": 10,
+      "registered": 10,
+      "not_complete": 3,
       "unit": "equipment",
-      "percent": 69.23,
+      "percent": 76.92,
       "registration_complete": false,
       "equipment_progress": {
         "MCU01": 100.0,
@@ -191,6 +194,7 @@
         "MCU03": 100.0,
         "MCU04": 100.0,
         "MCU07": 100.0,
+        "MCU09": 100.0,
         "MCU11": 100.0,
         "MCU12": 100.0,
         "MCU13": 100.0
@@ -435,10 +439,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 1,
-            "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 5,
+            "complete": 5,
+            "unit": "INV"
           },
           "scada": {
             "scope": 5,
@@ -521,10 +524,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 1,
-            "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 6,
+            "complete": 6,
+            "unit": "INV"
           },
           "scada": {
             "scope": 6,
@@ -607,10 +609,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 1,
-            "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 6,
+            "complete": 6,
+            "unit": "INV"
           },
           "scada": {
             "scope": 6,
@@ -693,10 +694,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 1,
-            "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 6,
+            "complete": 3,
+            "unit": "INV"
           },
           "scada": {
             "scope": 6,
@@ -724,8 +724,8 @@
             }
           },
           "scada_mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -780,10 +780,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 1,
-            "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 3,
+            "complete": 3,
+            "unit": "INV"
           },
           "scada": {
             "scope": 3,
@@ -853,10 +852,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 1,
+            "scope": 2,
             "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 2,
@@ -926,10 +924,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 1,
-            "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 2,
+            "complete": 2,
+            "unit": "INV"
           },
           "scada": {
             "scope": 2,
@@ -1001,8 +998,7 @@
           "precomm": {
             "scope": 1,
             "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -1073,10 +1069,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 2,
-            "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 7,
+            "complete": 7,
+            "unit": "INV"
           },
           "scada": {
             "scope": 7,
@@ -1158,10 +1153,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 2,
-            "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 6,
+            "complete": 6,
+            "unit": "INV"
           },
           "scada": {
             "scope": 6,
@@ -1242,10 +1236,9 @@
             "shared_circuit_level": true
           },
           "precomm": {
-            "scope": 1,
-            "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "scope": 2,
+            "complete": 2,
+            "unit": "INV"
           },
           "scada": {
             "scope": 2,
@@ -1320,8 +1313,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -1418,8 +1410,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -1516,8 +1507,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -1614,8 +1604,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -1712,8 +1701,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -1810,8 +1798,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -1908,8 +1895,7 @@
           "precomm": {
             "scope": 1,
             "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2006,8 +1992,7 @@
           "precomm": {
             "scope": 1,
             "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2104,8 +2089,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2202,8 +2186,7 @@
           "precomm": {
             "scope": 1,
             "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2300,8 +2283,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2398,8 +2380,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2496,8 +2477,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2594,8 +2574,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2691,9 +2670,8 @@
           },
           "precomm": {
             "scope": 1,
-            "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "complete": 1,
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2789,9 +2767,8 @@
           },
           "precomm": {
             "scope": 1,
-            "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "complete": 1,
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2819,8 +2796,8 @@
             }
           },
           "scada_mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -2831,8 +2808,8 @@
             "scope_is_registered_only": true
           },
           "mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -2887,9 +2864,8 @@
           },
           "precomm": {
             "scope": 1,
-            "complete": 0,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "complete": 1,
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -2986,8 +2962,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -3084,8 +3059,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -3182,8 +3156,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -3280,8 +3253,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -3378,8 +3350,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -3476,8 +3447,7 @@
           "precomm": {
             "scope": 1,
             "complete": 1,
-            "unit": "circuits",
-            "shared_circuit_level": true
+            "unit": "INV"
           },
           "scada": {
             "scope": 1,
@@ -3719,5 +3689,5 @@
     }
   },
   "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results.",
-  "report_date": "2026-11-04"
+  "report_date": "2026-11-10"
 }

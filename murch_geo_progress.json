@@ -1,7 +1,7 @@
 {
   "schema": "tvant.geo.progress.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-04T21:26:35+00:00",
+  "published_at": "2026-11-10T21:12:18+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "note": "Documentary progress only; no technical acceptance. IV sampling execution by inverter uses the existing V4 counting rule; sampling compliance is separately reported.",
   "tests": {
@@ -137,7 +137,30 @@
       "11A": 100.0,
       "11B": 100.0,
       "12A": 100.0,
-      "12B": 0.0
+      "12B": 50.0,
+      "INV01": 100.0,
+      "INV02": 100.0,
+      "INV03": 100.0,
+      "INV04": 100.0,
+      "INV05": 100.0,
+      "INV06": 100.0,
+      "INV07": 0.0,
+      "INV08": 0.0,
+      "INV09": 100.0,
+      "INV10": 0.0,
+      "INV11": 100.0,
+      "INV12": 100.0,
+      "INV13": 100.0,
+      "INV14": 100.0,
+      "INV15": 100.0,
+      "INV16": 100.0,
+      "INV17": 100.0,
+      "INV18": 100.0,
+      "INV19": 100.0,
+      "INV20": 100.0,
+      "INV21": 100.0,
+      "INV22": 100.0,
+      "INV23": 100.0
     },
     "scada_control_boxes": {
       "11A": 100.0,
@@ -146,23 +169,25 @@
       "12B": 100.0
     },
     "scada_mcu": {
-      "PROJECT": 69.23,
+      "PROJECT": 76.92,
       "MCU01": 100.0,
       "MCU02": 100.0,
       "MCU03": 100.0,
       "MCU04": 100.0,
       "MCU07": 100.0,
+      "MCU09": 100.0,
       "MCU11": 100.0,
       "MCU12": 100.0,
       "MCU13": 100.0
     },
     "mcu": {
-      "PROJECT": 69.23,
+      "PROJECT": 76.92,
       "MCU01": 100.0,
       "MCU02": 100.0,
       "MCU03": 100.0,
       "MCU04": 100.0,
       "MCU07": 100.0,
+      "MCU09": 100.0,
       "MCU11": 100.0,
       "MCU12": 100.0,
       "MCU13": 100.0
