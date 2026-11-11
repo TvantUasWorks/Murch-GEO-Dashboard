@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-11T21:07:16+00:00",
+  "published_at": "2026-11-11T22:17:14+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -28,19 +28,19 @@
     {
       "id": "iv",
       "name": "IV Curve Test — Sampling",
-      "complete": 256,
-      "measured": 256,
-      "measurements": 302,
+      "complete": 259,
+      "measured": 259,
+      "measurements": 305,
       "source": "CSV",
       "review_status": {
         "Validated": 241,
         "Rejected": 0,
         "Requires Review": 0,
-        "Pending Review": 61
+        "Pending Review": 64
       },
       "full_lbd_measured": 1,
       "full_lbd_scope": 5,
-      "sample_lbd_measured": 237,
+      "sample_lbd_measured": 240,
       "sample_lbd_scope": 414,
       "unmapped": 0,
       "scope": 492,
@@ -585,9 +585,9 @@
           },
           "iv": {
             "scope": 110,
-            "complete": 44,
+            "complete": 47,
             "unit": "STR samples",
-            "percent": 40.0,
+            "percent": 42.73,
             "provisional_full_lbd": false
           },
           "grounding": {
@@ -1131,7 +1131,7 @@
             "scope": 111,
             "complete": 0,
             "unit": "LBD",
-            "measured": 9
+            "measured": 12
           },
           "grounding": {
             "scope": 6,
@@ -3324,9 +3324,9 @@
           },
           "iv": {
             "scope": 19,
-            "complete": 0,
+            "complete": 3,
             "unit": "STR samples",
-            "percent": 0.0,
+            "percent": 15.79,
             "provisional_full_lbd": false
           },
           "grounding": {
@@ -3681,9 +3681,9 @@
     },
     "INV22": {
       "scope": 19,
-      "complete": 0,
-      "percent": 0.0,
-      "contractual_complete": 0,
+      "complete": 3,
+      "percent": 15.79,
+      "contractual_complete": 3,
       "full_lbd_provisional": false,
       "sampling_rule": "ONE_STRING_PER_LBD"
     },
