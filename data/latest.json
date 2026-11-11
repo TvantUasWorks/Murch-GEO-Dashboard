@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-11T16:35:00+00:00",
+  "published_at": "2026-11-11T20:52:55+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -14,7 +14,7 @@
     {
       "id": "grounding",
       "name": "Grounding Resistance",
-      "complete": 18,
+      "complete": 20,
       "scope": 23,
       "unit": "INV"
     },
@@ -677,7 +677,7 @@
           },
           "grounding": {
             "scope": 6,
-            "complete": 1,
+            "complete": 3,
             "unit": "INV"
           },
           "continuity": {
@@ -1135,7 +1135,7 @@
           },
           "grounding": {
             "scope": 6,
-            "complete": 4,
+            "complete": 6,
             "unit": "INV"
           },
           "continuity": {
@@ -2749,7 +2749,7 @@
           },
           "grounding": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "continuity": {
@@ -2846,7 +2846,7 @@
           },
           "grounding": {
             "scope": 1,
-            "complete": 0,
+            "complete": 1,
             "unit": "INV"
           },
           "continuity": {
