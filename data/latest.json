@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-11T16:15:09+00:00",
+  "published_at": "2026-11-11T16:35:00+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -144,22 +144,26 @@
       "id": "scada_mcu",
       "name": "SCADA — MCU Communications",
       "scope": 13,
-      "complete": 10,
-      "registered": 10,
-      "not_complete": 3,
+      "complete": 12,
+      "registered": 13,
+      "not_complete": 1,
       "unit": "equipment",
-      "percent": 76.92,
-      "registration_complete": false,
+      "percent": 92.31,
+      "registration_complete": true,
       "equipment_progress": {
         "MCU01": 100.0,
         "MCU02": 100.0,
         "MCU03": 100.0,
         "MCU04": 100.0,
+        "MCU05": 100.0,
+        "MCU06": 100.0,
         "MCU07": 100.0,
+        "MCU08": 100.0,
         "MCU09": 100.0,
+        "MCU10": 100.0,
         "MCU11": 100.0,
         "MCU12": 100.0,
-        "MCU13": 100.0
+        "MCU13": 0.0
       }
     },
     {
@@ -182,22 +186,26 @@
       "id": "mcu",
       "name": "MCU Inspection",
       "scope": 13,
-      "complete": 10,
-      "registered": 10,
-      "not_complete": 3,
+      "complete": 12,
+      "registered": 13,
+      "not_complete": 1,
       "unit": "equipment",
-      "percent": 76.92,
-      "registration_complete": false,
+      "percent": 92.31,
+      "registration_complete": true,
       "equipment_progress": {
         "MCU01": 100.0,
         "MCU02": 100.0,
         "MCU03": 100.0,
         "MCU04": 100.0,
+        "MCU05": 100.0,
+        "MCU06": 100.0,
         "MCU07": 100.0,
+        "MCU08": 100.0,
         "MCU09": 100.0,
+        "MCU10": 100.0,
         "MCU11": 100.0,
         "MCU12": 100.0,
-        "MCU13": 100.0
+        "MCU13": 0.0
       }
     },
     {
@@ -554,7 +562,7 @@
             }
           },
           "scada_mcu": {
-            "scope": 3,
+            "scope": 4,
             "complete": 3,
             "unit": "registered equipment",
             "scope_is_registered_only": true
@@ -724,8 +732,8 @@
             }
           },
           "scada_mcu": {
-            "scope": 1,
-            "complete": 1,
+            "scope": 3,
+            "complete": 3,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -1826,8 +1834,8 @@
             }
           },
           "scada_mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -1838,8 +1846,8 @@
             "scope_is_registered_only": true
           },
           "mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -1923,8 +1931,8 @@
             }
           },
           "scada_mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -1935,8 +1943,8 @@
             "scope_is_registered_only": true
           },
           "mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -2409,7 +2417,7 @@
           },
           "scada_mcu": {
             "scope": 1,
-            "complete": 1,
+            "complete": 0,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -2421,7 +2429,7 @@
           },
           "mcu": {
             "scope": 1,
-            "complete": 1,
+            "complete": 0,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -2699,8 +2707,8 @@
             }
           },
           "scada_mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -2711,8 +2719,8 @@
             "scope_is_registered_only": true
           },
           "mcu": {
-            "scope": 0,
-            "complete": 0,
+            "scope": 1,
+            "complete": 1,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -3475,8 +3483,8 @@
             }
           },
           "scada_mcu": {
-            "scope": 1,
-            "complete": 1,
+            "scope": 2,
+            "complete": 2,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
@@ -3487,8 +3495,8 @@
             "scope_is_registered_only": true
           },
           "mcu": {
-            "scope": 1,
-            "complete": 1,
+            "scope": 2,
+            "complete": 2,
             "unit": "registered equipment",
             "scope_is_registered_only": true
           },
