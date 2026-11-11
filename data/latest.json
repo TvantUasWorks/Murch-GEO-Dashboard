@@ -1,7 +1,7 @@
 {
   "schema": "tvant.client-portal.snapshot.v1",
   "project": "MURCH PV",
-  "published_at": "2026-11-10T21:12:18+00:00",
+  "published_at": "2026-11-11T16:15:09+00:00",
   "counting_basis": "Documentary coverage; not electrical acceptance. Vdc may include legacy unclassified records where no explicit Vdc are present.",
   "activities": [
     {
@@ -28,19 +28,19 @@
     {
       "id": "iv",
       "name": "IV Curve Test — Sampling",
-      "complete": 195,
-      "measured": 195,
-      "measurements": 241,
+      "complete": 256,
+      "measured": 256,
+      "measurements": 302,
       "source": "CSV",
       "review_status": {
         "Validated": 241,
         "Rejected": 0,
         "Requires Review": 0,
-        "Pending Review": 0
+        "Pending Review": 61
       },
       "full_lbd_measured": 1,
       "full_lbd_scope": 5,
-      "sample_lbd_measured": 176,
+      "sample_lbd_measured": 237,
       "sample_lbd_scope": 414,
       "unmapped": 0,
       "scope": 492,
@@ -492,9 +492,9 @@
           },
           "iv": {
             "scope": 110,
-            "complete": 92,
+            "complete": 109,
             "unit": "STR samples",
-            "percent": 83.64,
+            "percent": 99.09,
             "provisional_full_lbd": false
           },
           "grounding": {
@@ -577,9 +577,9 @@
           },
           "iv": {
             "scope": 110,
-            "complete": 0,
+            "complete": 44,
             "unit": "STR samples",
-            "percent": 0.0,
+            "percent": 40.0,
             "provisional_full_lbd": false
           },
           "grounding": {
@@ -1039,7 +1039,7 @@
             "scope": 128,
             "complete": 0,
             "unit": "LBD",
-            "measured": 92
+            "measured": 109
           },
           "grounding": {
             "scope": 7,
@@ -1123,7 +1123,7 @@
             "scope": 111,
             "complete": 0,
             "unit": "LBD",
-            "measured": 0
+            "measured": 9
           },
           "grounding": {
             "scope": 6,
@@ -1207,7 +1207,7 @@
             "scope": 35,
             "complete": 0,
             "unit": "LBD",
-            "measured": 0
+            "measured": 35
           },
           "grounding": {
             "scope": 2,
@@ -2540,9 +2540,9 @@
           },
           "iv": {
             "scope": 17,
-            "complete": 0,
+            "complete": 17,
             "unit": "STR samples",
-            "percent": 0.0,
+            "percent": 100.0,
             "provisional_full_lbd": false
           },
           "grounding": {
@@ -2928,9 +2928,9 @@
           },
           "iv": {
             "scope": 19,
-            "complete": 0,
+            "complete": 9,
             "unit": "STR samples",
-            "percent": 0.0,
+            "percent": 47.37,
             "provisional_full_lbd": false
           },
           "grounding": {
@@ -3025,9 +3025,9 @@
           },
           "iv": {
             "scope": 17,
-            "complete": 0,
+            "complete": 17,
             "unit": "STR samples",
-            "percent": 0.0,
+            "percent": 100.0,
             "provisional_full_lbd": false
           },
           "grounding": {
@@ -3122,9 +3122,9 @@
           },
           "iv": {
             "scope": 18,
-            "complete": 0,
+            "complete": 18,
             "unit": "STR samples",
-            "percent": 0.0,
+            "percent": 100.0,
             "provisional_full_lbd": false
           },
           "grounding": {
@@ -3609,9 +3609,9 @@
     },
     "INV14": {
       "scope": 17,
-      "complete": 0,
-      "percent": 0.0,
-      "contractual_complete": 0,
+      "complete": 17,
+      "percent": 100.0,
+      "contractual_complete": 17,
       "full_lbd_provisional": false,
       "sampling_rule": "ONE_STRING_PER_LBD"
     },
@@ -3641,25 +3641,25 @@
     },
     "INV18": {
       "scope": 19,
-      "complete": 0,
-      "percent": 0.0,
-      "contractual_complete": 0,
+      "complete": 9,
+      "percent": 47.37,
+      "contractual_complete": 9,
       "full_lbd_provisional": false,
       "sampling_rule": "ONE_STRING_PER_LBD"
     },
     "INV19": {
       "scope": 17,
-      "complete": 0,
-      "percent": 0.0,
-      "contractual_complete": 0,
+      "complete": 17,
+      "percent": 100.0,
+      "contractual_complete": 17,
       "full_lbd_provisional": false,
       "sampling_rule": "ONE_STRING_PER_LBD"
     },
     "INV20": {
       "scope": 18,
-      "complete": 0,
-      "percent": 0.0,
-      "contractual_complete": 0,
+      "complete": 18,
+      "percent": 100.0,
+      "contractual_complete": 18,
       "full_lbd_provisional": false,
       "sampling_rule": "ONE_STRING_PER_LBD"
     },
@@ -3689,5 +3689,5 @@
     }
   },
   "visibility": "Aggregated client publication only; no raw measurements, names, attachments or original results.",
-  "report_date": "2026-11-10"
+  "report_date": "2026-11-11"
 }
